@@ -1,0 +1,74 @@
+
+body{
+    background-image: url("../images/netflixback.jpg");
+}
+nav{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#btns{
+    padding: 20px;
+    position: absolute;
+    left: 75%;
+    top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px; 
+}
+#btns>button{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+#btns>#sign{
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+
+#sign>a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#logo{
+position: absolute;
+top: 30px;
+}
+
+
+main{
+    position: absolute;
+    color: whitesmoke;
+    top: 600px;
+    left: 400px;
+}
+main>h1{
+    font-size: 120px;
+    text-align: center;
+}
+main>h3{
+    font-size: 50px;
+    text-align: center;
+}
+main>input{
+    width: 700px;
+    height: 120px;
+    font-size: 40px;
+    position: relative;
+    left: 350px;
+    background-color: rgba(0, 0, 0, 0.498);
+}
+main>button{
+    width: 400px;
+    height: 140px;
+    position: relative;
+    left: 400px;
+    font-size: 50px;
+    background-color: red;
+    color: white;
+}
