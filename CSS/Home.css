@@ -1,6 +1,10 @@
 
 body{
     background-image: url("../images/netflixback.jpg");
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 nav{
     height: 130px;
@@ -25,10 +29,12 @@ nav{
     padding: 20px;
     border-radius: 20px;
     background-color: transparent;
+    border: none;
 }
 #btns>#sign{
     background-color: red;
     color: rgb(255, 255, 255);
+    border: none;
 }
 
 #sign>a{
@@ -38,6 +44,7 @@ nav{
 #logo{
 position: absolute;
 top: 30px;
+left: 30px;
 }
 
 

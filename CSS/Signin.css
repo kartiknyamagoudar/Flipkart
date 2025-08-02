@@ -1,0 +1,64 @@
+body {
+    background-image: url("../images/netflixback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+nav #logo img {
+    height: 200px;
+    width: auto;
+    margin: 20px;
+}
+
+form {
+    width: 700px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.login {
+    margin-bottom: 50px;
+}
+
+.login input {
+    width: 600px;
+    height: 50px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(71, 67, 67, 0.436);
+    
+}
+
+.login button {
+    width: 600px;
+    height: 70px;
+    font-size: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+}
+
+.login button:hover {
+    background-color: darkred;
+}
