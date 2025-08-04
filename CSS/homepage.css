@@ -11,9 +11,6 @@ body {
     overflow-x: hidden;
 }
 
-/* ========================= */
-/* NAVIGATION BAR */
-/* ========================= */
 .navbar {
     position: fixed;
     top: 0;
@@ -97,9 +94,7 @@ body {
     display: block;
 }
 
-/* ========================= */
-/* HERO SECTION */
-/* ========================= */
+
 .hero {
     position: relative;
     height: 70vh;
@@ -172,9 +167,7 @@ h1 {
     color: white;
 }
 
-/* ========================= */
-/* MOVIE ROWS */
-/* ========================= */
+
 .movie-section {
     padding: 30px 100px;
 }
@@ -185,7 +178,7 @@ h1 {
 .movie-row {
     display: flex;
     gap: 20px;
-    overflow-x: auto;
+    overflow-x:auto;
     scroll-behavior: smooth;
     padding-bottom: 10px;
 }
